@@ -8,7 +8,6 @@
             <li><a href="#contact">Conacto</a></li>
         </ul>
       </nav>
-
   </div>
 </template>
 
