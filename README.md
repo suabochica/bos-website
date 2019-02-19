@@ -55,6 +55,7 @@ bos-website/
 
 ### Refs
 + [Ashford-Ashford](http://ashford-ashford.com)
++ [Anchor transition to the navigation menu](https://codepen.io/melnik909/pen/KGxdjY?editors=1100)
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
