@@ -1,4 +1,4 @@
-# bos-website
+# Bos Website
 
 ## Web Tech-Stack
 + Vue
@@ -28,6 +28,31 @@ npm run test
 ```
 npm run lint
 ```
+### Project Structure
+```
+bos-website/
+|-- public/              			# folder to store the static files
+|   |-- styles/			            # folder to store the  static styles
+|   |	|-- _global.css
+|   |	|-- _reset.css
+|   |	|-- _variables.css
+|   |   |-- main.css
+|   |   ...
+|-- index.html              		# File to expose the vue entry point
+|-- favicon.ico
+|   ...
+|-- src/      	        			# vue project folder
+|   |-- assets/			            # folder to store the assets
+|   |	|-- logo.png
+|   |   ...
+|   |-- components/			        # folder to store the project components
+|   |   ...
+|   |-- App.vue			            # file to build the vue app.
+|   |-- main.js			            # file to retrieve the entry point from public/index.html
+|   ...
+`-- README.md
+```
+
 ### Refs
 + [Ashford-Ashford](http://ashford-ashford.com)
 
