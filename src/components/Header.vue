@@ -4,7 +4,7 @@
         <img class="header__image" alt="Bos logo" src="../assets/bos_imagotype_left.png">
         <ul class="header__list">
             <li><a class="header__anchor" href="#principles">Principios</a></li>
-            <li><a class="header__anchor" href="#services">Services</a></li>
+            <li><a class="header__anchor" href="#services">Servicios</a></li>
             <li><a class="header__anchor" href="#contact">Conacto</a></li>
         </ul>
       </nav>
