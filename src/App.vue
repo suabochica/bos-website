@@ -2,6 +2,7 @@
   <div id="app">
     <Header/>
     <Quote/>
+    <Principles/>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
@@ -10,13 +11,15 @@
 import HelloWorld from './components/HelloWorld.vue'
 import Header from './components/Header.vue'
 import Quote from './components/Quote.vue'
+import Principles from './components/Principles.vue'
 
 export default {
   name: 'app',
   components: {
     HelloWorld,
     Header,
-    Quote
+    Quote,
+    Principles
   }
 }
 </script>
