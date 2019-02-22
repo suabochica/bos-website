@@ -1,11 +1,29 @@
 <template>
   <section class="principles--grid">
-    <div class="principles__card">Card 1</div>
-    <div class="principles__card">Card 2</div>
-    <div class="principles__card">Card 3</div>
-    <div class="principles__card">Card 4</div>
-    <div class="principles__card">Card 5</div>
-    <div class="principles__card">Card 6</div>
+    <div class="principles__card">
+      <h2>Card 1</h2>
+      <p>Lorem ipsum loren first paragraph</p>
+    </div>
+    <div class="principles__card">
+      <h2>Card 2</h2>
+      <p>Lorem ipsum loren second paragraph</p
+    ></div>
+    <div class="principles__card">
+      <h2>Card 3</h2>
+      <p>Lorem ipsum loren third paragraph</p>
+    </div>
+    <div class="principles__card">
+      <h2>Card 4</h2>
+      <p>Lorem ipsum loren fourth paragraph</p
+    ></div>
+    <div class="principles__card">
+      <h2>Card 5</h2>
+      <p>Lorem ipsum loren fifth paragraph</p>
+    </div>
+    <div class="principles__card">
+      <h2>Card 6</h2>
+      <p>Lorem ipsum loren sixth paragraph</p>
+    </div>
   </section>
 </template>
 
@@ -25,9 +43,8 @@ export default {
 }
 
 .principles__card {
-  background-color: var(--aqua);
-  justify-self: center;
   align-self: center;
+  justify-self: center;
 }
 
 </style>
