@@ -15,7 +15,7 @@ export default {
 <style>
 .quote {
   text-align: center;
-  margin: 32px 0 16px;
+  margin: 56px 0 64px;
 }
 
 .quote__square {
