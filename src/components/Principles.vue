@@ -1,5 +1,6 @@
 <template>
   <section class="principles--grid">
+    <h2 class="principles__title">Principios</h2>
     <div class="principles__card">
       <h2>Admira la grandeza</h2>
       <p>La grandeza inspira a los demas. La grandeza no es buscar reconocimientos ni pensar que se és superior a los demas, es realizar las cosas de una forma tan excelsa que toca la vida de los demas</p>
@@ -18,7 +19,7 @@
     </div>
     <div class="principles__card">
       <h2>Aprender del Fracaso</h2>
-      <p>E; fracasp es parte del proceso y es un resultado al que todos los  mortales estamos expuestos. Todos los días escuchamos historia de éxito y fracaso y siempre se concluye que el fracaso es la madre de todos los éxitos</p>
+      <p>El fracaso es parte del proceso y es un resultado al que todos los  mortales estamos expuestos. Todos los días escuchamos historia de éxito y fracaso y siempre se concluye que el fracaso es la madre de todos los éxitos</p>
     </div>
     <div class="principles__card">
       <h2>Vive el Momento</h2>
@@ -38,9 +39,17 @@ export default {
   background-color: var(--ocre);
   display: grid;
   grid-template-columns: repeat(3, 1fr [card__col__item]);
-  grid-template-rows: repeat(2, 200px [card__row__item]);
+  grid-template-rows: 96px 200px 200px;
   grid-gap: 8px;
   padding: 40px 0;
+}
+
+.principles__title {
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
 }
 
 .principles__card {
@@ -48,9 +57,10 @@ export default {
   justify-self: center;
   text-align: center;
   padding: 0 24px;
+  margin-bottom: 24px;
 }
 
-.principles__card h2{
+.principles__card h2 {
   font-family: 'Fira Sans', sans-serif;
   font-style: italic;
   font-weight: bold;
