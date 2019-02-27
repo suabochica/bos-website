@@ -7,12 +7,16 @@
     --gold: #FDC00F;
     --aqua: #41C7C7;
     --blue: #25A9F4;
+    --steel-blue: #213E4A;
     --salmon: #FE6A6A;
     --scarlet: #C22121;
     --green: #4CAF50;
     --grass: #8BC349;
     --white: #FFFFFF;
-    --black: #211602;
+    --silver: #D3D3D3;
+    --gainsboro: #DCDCDC;
+    --gray-dim: #787878;
+    --black: #232728;
 
     --opacity: rgba(0, 0, 0, 0.1);
 
