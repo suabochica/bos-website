@@ -1,5 +1,5 @@
 <template>
-  <section class="principles--grid">
+  <section id="principles" class="principles--grid">
     <h2 class="principles__title">Principios</h2>
     <div class="principles__card">
       <h2>Admira la grandeza</h2>

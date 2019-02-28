@@ -1,5 +1,5 @@
 <template>
-  <section class="contact--grid" method="post">
+  <section id="contact" class="contact--grid" method="post">
     <h2 class="contact__title">Contacto</h2>
     <form class="contact__form" action="">
       <label for="name">Nombre</label>

@@ -1,5 +1,5 @@
 <template>
-  <section class="services--grid">
+  <section id="services" class="services--grid">
     <h2 class="services__title">Servicios</h2>
     <div class="services__card">
       <h2>Análisis Estratégicos</h2>

@@ -4,7 +4,7 @@
       <ul class="footer__list">
         <li><a class="footer__anchor" href="#principles">Principios</a></li>
         <li><a class="footer__anchor" href="#services">Servicios</a></li>
-        <li><a class="footer__anchor" href="#contact">Conacto</a></li>
+        <li><a class="footer__anchor" href="#contact">Contacto</a></li>
       </ul>
     </nav>
     <img class="footer__image" alt="Bos logo" src="../assets/bos_pictogram.png">

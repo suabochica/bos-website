@@ -5,7 +5,7 @@
       <ul class="header__list">
         <li><a class="header__anchor" href="#principles">Principios</a></li>
         <li><a class="header__anchor" href="#services">Servicios</a></li>
-        <li><a class="header__anchor" href="#contact">Conacto</a></li>
+        <li><a class="header__anchor" href="#contact">Contacto</a></li>
       </ul>
     </nav>
   </header>
