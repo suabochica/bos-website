@@ -5,6 +5,7 @@
     <Principles/>
     <Services />
     <Contact />
+    <Footer />
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import Quote from './components/Quote.vue'
 import Principles from './components/Principles.vue'
 import Services from './components/Services.vue'
 import Contact from './components/Contact.vue'
+import Footer from './components/Footer.vue'
 
 export default {
   name: 'app',
@@ -22,7 +24,8 @@ export default {
     Quote,
     Principles,
     Services,
-    Contact
+    Contact,
+    Footer
   }
 }
 </script>

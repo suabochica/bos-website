@@ -1,5 +1,5 @@
 <template>
-  <div class="header">
+  <header class="header">
     <nav class="header__menu">
       <img class="header__image" alt="Bos logo" src="../assets/bos_imagotype_left.png">
       <ul class="header__list">
@@ -8,7 +8,7 @@
         <li><a class="header__anchor" href="#contact">Conacto</a></li>
       </ul>
     </nav>
-  </div>
+  </header>
 </template>
 
 <script>
@@ -36,8 +36,8 @@ li {
 
 .header__menu {
   align-items: center;
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .header__list {
