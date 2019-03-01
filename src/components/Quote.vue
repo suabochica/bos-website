@@ -14,8 +14,7 @@ export default {
 
 <style>
 .quote {
-  text-align: center;
-  margin: 56px 0 64px;
+  padding: 56px 0 64px;
 }
 
 .quote__square {
@@ -30,12 +29,13 @@ export default {
 }
 
 .quote__header {
+  color: var(--back);
   font-family: 'Fira Sans', sans-serif;
   font-size: 64px;
   font-style: italic;
   font-weight: 900;
   text-transform: uppercase;
 
-  margin: 24px 0;
+  margin: 80px 0;
 }
 </style>

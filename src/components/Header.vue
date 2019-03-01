@@ -8,12 +8,18 @@
         <li><a class="header__anchor" href="#contact">Contacto</a></li>
       </ul>
     </nav>
+    <Quote />
   </header>
 </template>
 
 <script>
+import Quote from './Quote.vue'
+
 export default {
   name: 'Header',
+  components: {
+    Quote
+  }
 }
 </script>
 
@@ -31,7 +37,27 @@ li {
 
 
 .header {
+  text-align: center;
+  position: relative;
   padding: 2em 32px
+}
+
+.header::before {
+  content: "";
+  background-image: url('../assets/quote_image_background.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: 0%;
+
+  filter: grayscale(1) opacity(.64);
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+
+  z-index: -1;
 }
 
 .header__menu {
