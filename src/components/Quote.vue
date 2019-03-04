@@ -1,7 +1,7 @@
 <template>
   <section class="quote">
     <div class="quote__square"></div>
-    <h1 class="quote__header">¡Encuentra tu propia grandeza! <br/> Nosotros te apoyamos. </h1>
+    <h1 class="quote__header">¡Encuentra tu propia grandeza! <br/> Creemos en BOS!</h1>
     <div class="quote__square"></div>
   </section>
 </template>

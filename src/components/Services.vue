@@ -3,9 +3,18 @@
     <h2 class="services__title">Servicios</h2>
     <div class="services__card">
       <h2>Análisis Estratégicos</h2>
+      <ul>
+        <li>Seguimiento de resultados</li>
+        <li>Análisis de rendimientos y tendecias</li>
+        <li>Evaluación y orientación de las capacidades</li>
+      </ul>
     </div>
     <div class="services__card">
       <h2>Entrenamientos Alternativos</h2>
+      <ul>
+        <li>Entrenamiento en realidad virtual</li>
+        <li>In Situ</li>
+      </ul>
     </div>
   </section>
 </template>
@@ -47,6 +56,19 @@ export default {
   text-transform: uppercase;
   padding-bottom: 16px;
   word-break: break-all;
+}
+
+.services__card ul {
+  list-style: square inside;
+  text-align: left;
+}
+
+.services__card li {
+  display: list-item;
+  font-family: 'Fira Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  padding-bottom: 16px;
 }
 
 </style>

@@ -2,7 +2,7 @@
   <header class="header">
     <nav class="header__menu">
       <img class="header__image" alt="Bos logo" src="../assets/bos_imagotype_left.png">
-      <ul class="header__list">
+      <ul>
         <li><a class="header__anchor" href="#principles">Principios</a></li>
         <li><a class="header__anchor" href="#services">Servicios</a></li>
         <li><a class="header__anchor" href="#contact">Contacto</a></li>
@@ -25,12 +25,12 @@ export default {
 
 <style>
 
-ul {
+.header__menu ul {
   list-style-type: none;
   padding: 0;
 }
 
-li {
+.header__menu li {
   display: inline-block;
   margin: 0 10px;
 }
