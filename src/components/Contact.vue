@@ -1,20 +1,19 @@
 <template>
   <section id="contact" class="contact--grid" method="post">
     <h2 class="contact__title">Contacto</h2>
-    <form class="contact__form" action="">
+    <form class="contact__form" name="contact_form" @submit.prevent="handleSubmit">
       <label for="name">Nombre</label>
-      <input type="text" name="name">
+      <input type="text" name="name" v-model="contact.name">
       <label for="email">Correo Electrónico</label>
-      <input type="text" name="email">
+      <input type="text" name="email" v-model="contact.email">
       <label for="message">Mensaje</label>
-      <textarea name="message" id="" cols="30" rows="10"></textarea>
-      <input type="submit" id="submit">
+      <textarea name="message" id="" cols="30" rows="10" v-model="contact.message"></textarea>
+      <input type="submit" id="submit" value="ENVIAR" @click="handleSubmit">
     </form>
     <aside class="contact_address">
       <h3>Información de Contacto</h3>
       <p><b>Teléfono:</b> (+571) 311 809 5133</p>
-      <p><b>Correo Electrónico:</b> contact@bos.com</p>
-      <p><b>Dirección:</b> KR 32A # 25B - 75</p>
+      <p><b>Correo Electrónico:</b> bossportsco@gmail.com</p>
     </aside>
   </section>
 </template>
@@ -22,7 +21,23 @@
 <script>
 export default {
   name: 'Contact',
+  data() {
+    return {
+      contact: {
+        name: '',
+        email: '',
+        message: '',
+      }
+    }
+  },
+
+  methods: {
+    handleSubmit: function() {
+      return `hola`
+    }
+  }
 }
+
 </script>
 
 <style>
