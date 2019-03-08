@@ -37,22 +37,24 @@ export default {
     }
   }
 }
-
 </script>
 
 <style>
 .contact--grid {
   background-color: var(--gainsboro);
   color: var(--black);
+
   display: grid;
   grid-template-columns: repeat(2, 1fr [card__col__item]);
   grid-template-rows: 96px repeat(1, 360px [card__row__item]);
   grid-gap: 8px;
+
   padding: 40px 0;
 }
 
 .contact__title {
   text-align: center;
+
   grid-column: 1 / 4;
   grid-row: 1 / 2;
 }
@@ -67,6 +69,7 @@ export default {
 .contact__form input[type="text"],
 .contact__form input[type="submit"] {
   display: inline-block;
+
   width: 100%;
 }
 
@@ -74,6 +77,7 @@ export default {
   font-family: 'Fira Sans', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
+
   padding: 8px 0 2px;
 }
 
@@ -81,7 +85,9 @@ export default {
 .contact__form input[type="text"] {
   background-color: var(--white);
   border: 1px solid var(--gray-dim);
+
   font-family: 'Fira Sans', sans-serif;
+
   padding: 6px 4px;
 }
 
@@ -89,7 +95,9 @@ export default {
   background-color: var(--salmon);
   border: 1px solid var(--scarlet);
   color: var(--white);
+
   font-family: 'Fira Sans', sans-serif;
+
   padding: 6px 4px;
   margin-top: 16px;
 }
