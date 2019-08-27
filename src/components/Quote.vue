@@ -1,15 +1,15 @@
 <template>
   <section class="quote">
     <div class="quote__square"></div>
-    <h1 class="quote__header">¡Encuentra tu propia grandeza! <br/> Creemos en BOS!</h1>
+    <h1 class="quote__header">¡Forjando grandeza!</h1>
     <div class="quote__square"></div>
   </section>
 </template>
 
 <script>
 export default {
-  name: 'Quote',
-}
+  name: "Quote"
+};
 </script>
 
 <style>
@@ -18,7 +18,7 @@ export default {
 }
 
 .quote__square {
-  background-image: url('../assets/quote_square.png');
+  background-image: url("../assets/quote_square.png");
   background-repeat: no-repeat;
   background-position: center;
   height: 24px;
@@ -30,7 +30,7 @@ export default {
 
 .quote__header {
   color: var(--back);
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
   font-size: 64px;
   font-style: italic;
   font-weight: 900;
