@@ -76,6 +76,7 @@ module.exports = {
 
 - [Ashford-Ashford](http://ashford-ashford.com)
 - [Anchor transition to the navigation menu](https://codepen.io/melnik909/pen/KGxdjY?editors=1100)
+- [Simple Vue routing example](https://github.com/chrisvfritz/vue-2.0-simple-routing-example)
 
 ### Customize configuration
 
