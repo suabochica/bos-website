@@ -2,6 +2,18 @@
   <section class="quote">
     <div class="quote__square"></div>
     <h1 class="quote__header">¡Forjando grandeza!</h1>
+    <div class="quote__container">
+      <p
+        class="quote__paragraph"
+      >Prueba nuesta aplicación de android para registrar los resultados de un combate de esgrima</p>
+      <a
+        class="button"
+        href="http://bos.com.co/apk/fencing_fast_stats_v1.0.apk"
+        download="fencing_fast_stats_v1.0"
+      >
+        <i class="fa fa-download"></i>Descargar
+      </a>
+    </div>
     <div class="quote__square"></div>
   </section>
 </template>
@@ -37,5 +49,38 @@ export default {
   text-transform: uppercase;
 
   margin: 80px 0;
+}
+
+.quote__container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 184px;
+}
+
+.quote__paragraph {
+  font-weight: bold;
+}
+
+.button {
+  align-self: center;
+  background-color: var(--gold);
+  border: none;
+  color: var(--black);
+  cursor: pointer;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 12px 30px;
+  margin: 24px;
+  width: 200px;
+}
+
+.button i {
+  padding-right: 8px;
+}
+
+.button:hover {
+  background-color: var(--ocre);
 }
 </style>
