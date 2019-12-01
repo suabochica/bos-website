@@ -1,5 +1,6 @@
 <template>
   <section id="contact" class="contact--grid" method="post">
+    <!--
     <h2 class="contact__title">Contacto</h2>
     <form class="contact__form" name="contact_form" @submit.prevent="handleSubmit">
       <label for="name">Nombre</label>
@@ -10,10 +11,11 @@
       <textarea name="message" id="" cols="30" rows="10" v-model="contact.message"></textarea>
       <input type="submit" id="submit" value="ENVIAR" @click="handleSubmit">
     </form>
+    -->
     <aside class="contact_address">
-      <h3>Información de Contacto</h3>
+      <h3>Contacto</h3>
       <p><b>Teléfono:</b> (+571) 311 809 5133</p>
-      <p><b>Correo Electrónico:</b> bossportsco@gmail.com</p>
+      <p><b>Correo Electrónico:</b> contacto@bos.com.co</p>
     </aside>
   </section>
 </template>
@@ -44,10 +46,12 @@ export default {
   background-color: var(--gainsboro);
   color: var(--black);
 
+/**
   display: grid;
   grid-template-columns: repeat(2, 1fr [card__col__item]);
   grid-template-rows: 96px repeat(1, 360px [card__row__item]);
   grid-gap: 8px;
+*/
 
   padding: 40px 0;
 }
@@ -100,5 +104,8 @@ export default {
 
   padding: 6px 4px;
   margin-top: 16px;
+}
+.contact_address {
+  text-align: center;
 }
 </style>

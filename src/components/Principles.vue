@@ -39,7 +39,7 @@ export default {
   background-color: var(--ocre);
   display: grid;
   grid-template-columns: repeat(3, 1fr [card__col__item]);
-  grid-template-rows: 96px 200px 200px;
+  grid-template-rows: 96px 288px 200px;
   grid-gap: 8px;
   padding: 40px 0;
 }
