@@ -1,0 +1,14 @@
+{
+  "list": [
+    {
+      "name":"BOS stocks",
+      "url":"https://github.com/suabochica/bos-stocks",
+      "desc":"Proyecto en python para graficar stocks"
+    },
+    {
+      "name":"BOS fence fast stats",
+      "url":"https://github.com/plumbusOwner/fence-fast-stats",
+      "desc":"Aplicación móvil para tomar datos de una batalla de esgrima en la modalidad de espada"
+    }
+  ]
+}

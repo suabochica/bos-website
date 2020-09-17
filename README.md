@@ -2,7 +2,7 @@
 
 ## Web Tech-Stack
 
-- Vue
+-Vue
 - CSS3
 
 ## Project setup
