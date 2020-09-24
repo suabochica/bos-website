@@ -1,14 +1,25 @@
 {
   "list": [
     {
-      "name":"Bosmica stocks",
-      "url":"https://gohugo.io/",
+      "name":"Bosmica stocks [github]",
+      "url":"https://github.com/suabochica/bos-stocks",
       "desc":"Visualizador de acciones de la bolsa de Nueva Nork"
     },
     {
-      "name":"Bosmica fence fast stats",
+      "name":"Bosmica stocks [app]",
+      "url":"https://floating-coast-32944.herokuapp.com/",
+      "desc":"Visualizador de acciones de la bolsa de Nueva York"
+    },
+    {
+      "name":"Bosmica fence fast stats [github]",
       "url":"https://github.com/plumbusOwner/fence-fast-stats",
       "desc":"Aplicación móvil para registrar datos de una batalla de esgrima, modalidad espada"
+    },
+    {
+      "name":"Bosmica fence fast stats [apk]",
+      "url":"https://drive.google.com/file/d/1Xjt5tfiHw5J17mvUEEyC-1eSCvnLhAxv/view?usp=sharing",
+      "desc":"Descarga nuestra aplicación"
     }
   ]
 }
+
